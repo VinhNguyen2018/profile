@@ -1,0 +1,109 @@
+body {
+  background-color: #DCDCDC;
+  font-family: 'KoHo', sans-serif;
+  color: #756d6d;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #D8B47F;
+  font-family:'Muli', sans-serif;
+}
+
+body h2, h3{
+  font-family:'Muli', sans-serif;
+  color: #568cd3;
+  padding-left: 20px;
+  font-size:22px;
+  font-weight: 700;
+}
+
+#profile-photo {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #D8B47F;
+  margin-top: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+  padding-left: 20px
+  border: 1px;
+  border-color: black;
+  background: white;
+  margin:10px;
+  padding:10px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.center {
+  text-align: center;
+}
+
+.card img{
+  width: 250px;
+  height: 168px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #756d6d;
+}
+a:hover {
+  color: #568cd3;
+  text-decoration: underline;
+}
+
+p {
+ text-align: justify;
+ padding-top: 7px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card img {
+    width: 150px;
+    height:84px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
